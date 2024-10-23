@@ -13,9 +13,11 @@ class BSConstants: NSObject {
     static let mainStoryBoard = "Main"
     
 #if DEV
-    static let baseUrl = "akram"
+    static let baseUrl = "https://reqres.in"
 #else
-    static let baseUrl = "jony"
+    static let baseUrl = "https://reqres.in"
 #endif
 
+    static let isDebugEnabled : Bool = true
+    
 }

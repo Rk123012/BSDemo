@@ -29,6 +29,9 @@
                     <constraint firstItem="DB1-ip-4xo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="oeF-NG-6fh"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="lblTitle" destination="DB1-ip-4xo" id="Wsu-VU-Zj9"/>
+            </connections>
             <point key="canvasLocation" x="-3.0534351145038165" y="62.323943661971832"/>
         </tableViewCell>
     </objects>
